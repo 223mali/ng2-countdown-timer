@@ -121,7 +121,7 @@ CountdownComponent.decorators = [
   </div>
 </div>
 <ng-content></ng-content>`,
-                styles: [`.countdown{display:flex;align-items:center;justify-content:center;align-content:center;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}.countdown .measurements{flex:.1}.countdown .measurements .divider{float:right}`]
+                styles: [`.countdown{display:flex;align-items:center;justify-content:center;align-content:center;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; width: fit-content; margin-left:auto; margin-right:auto;}.countdown .measurements{flex:.1}.countdown .measurements .divider{float:right}.measurements-number{width: fit-content; margin-left:auto; margin-right:auto; color:black;}`]
             },] },
 ];
 /** @nocollapse */
